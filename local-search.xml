@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>第一份文稿（本网页部署编辑过程记录）</title>
+    <link href="/2023/04/29/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/"/>
+    <url>/2023/04/29/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/</url>
+    
+    <content type="html"><![CDATA[<p>你好，这里介绍这个网页是如何部署的。  </p><h2 id="借助github的pages和hexo能够方便的生成部署静态网页-而markdown语法则简化了网页内容的编写，对比手写HTML文件要简洁便利的多。"><a href="#借助github的pages和hexo能够方便的生成部署静态网页-而markdown语法则简化了网页内容的编写，对比手写HTML文件要简洁便利的多。" class="headerlink" title="借助github的pages和hexo能够方便的生成部署静态网页,而markdown语法则简化了网页内容的编写，对比手写HTML文件要简洁便利的多。  "></a>借助github的pages和hexo能够方便的生成部署静态网页,<br>而markdown语法则简化了网页内容的编写，对比手写HTML文件要简洁便利的多。  </h2><h2 id="😂尽管这个任务应当是简单的，但是我还是折腾了一个晚上。"><a href="#😂尽管这个任务应当是简单的，但是我还是折腾了一个晚上。" class="headerlink" title="😂尽管这个任务应当是简单的，但是我还是折腾了一个晚上。  "></a>😂尽管这个任务应当是简单的，但是我还是折腾了一个晚上。  </h2><blockquote><p>其中，”本地server成功显示css效果但部署到pages之后无法正确显示样式”的问题困扰了很久<br>通过CSDN上的一篇文章，我得以解决这个问题。<br><a href="https://blog.csdn.net/m0_60930579/article/details/126312041">link</a><br>解决的思路是：首先F12发现网页报错，是CSS的问题 -&gt; 再检查deploy的推送地址，没有问题 -&gt; 最后看到url和root，发现<br>root没有正确编写，修改即可。<br>url 是github的仓库地址，root是要填仓库所在的根路径<br>如果是 *** username&#x2F;github.io *** 样式的github pages网页，root应当只填写根目录 “ &#x2F; “ （一个符号）  </p></blockquote><hr><p>完成NodeJS和npm的安装，完成环境变量配置<br>完成Github的html页面文件创建<br>完成文件部署<br>可以访问网站<br>利用fluid素材包装饰网页<br>在这其中，利用Git的bash操作框<br>右键点击hexo-blog，选择唤起git bash，在bash里进行各种操作<br>hexo g -d<br>hexo s<br>在本地启动样例网页查看<br><a href="http://localhost:4000/">link</a></p><hr><p>GitHub page 可以建立多个，但个人账户page只能有一个， 项目page可以有多个。<br>个人主页必须要和用户的GitHub帐号同名，所以每个用户有且只能有一个repo作为个人主页，且必须是<username>&#x2F;<username>.github.io的形式；<br>而项目主页的命名则没有这种限制，且数量有任意多个。<br>不考虑绑定的自定义域名的前提下，个人主页的GitHub二级域名为<username>.github.io;项目主页的GitHub二级域名为<username>.github.io&#x2F;<projectname>,<br>没有<projectname>.<username>.github.io这种方式 个人主页的展示内容以master分支里的文件为准；而项目主页的展示内容以gh-pages分支内的文件为准 </p><h2 id="检查-config-yml中的内容，特别注意-后面需要有一个空格"><a href="#检查-config-yml中的内容，特别注意-后面需要有一个空格" class="headerlink" title="检查_config.yml中的内容，特别注意:后面需要有一个空格"></a>检查_config.yml中的内容，特别注意:后面需要有一个空格</h2><h2 id="Shift-F5强制刷新浏览器缓存清空缓存、部署、发送三部曲：hexo-cleanhexo-ghexo-d"><a href="#Shift-F5强制刷新浏览器缓存清空缓存、部署、发送三部曲：hexo-cleanhexo-ghexo-d" class="headerlink" title="Shift+F5强制刷新浏览器缓存清空缓存、部署、发送三部曲：hexo cleanhexo ghexo d"></a>Shift+F5强制刷新浏览器缓存<br>清空缓存、部署、发送三部曲：<br>hexo clean<br>hexo g<br>hexo d</h2><h2 id="参考文章的URL"><a href="#参考文章的URL" class="headerlink" title="参考文章的URL  "></a><em>参考文章的URL</em>  </h2><blockquote><pre><code class="hljs">  hexo部署静态网页   </code></pre><p><a href="http://t.csdn.cn/ZHM0z">link</a><br>      markdown语法<br><a href="https://www.markdown.xyz/basic-syntax/">link</a><br>      流程参考<br><a href="https://blog.csdn.net/yaorongke/article/details/119089190">link</a><br>      官方页面<br><a href="https://pages.github.com/">link</a>  </p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>网页部署过程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>个人获奖经历</title>
     <link href="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/"/>
     <url>/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/</url>
@@ -17,19 +36,6 @@
       <tag>网络空间安全学院转专业材料</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>第一份文稿</title>
-    <link href="/2023/03/30/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/"/>
-    <url>/2023/03/30/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
     
   </entry>
   
