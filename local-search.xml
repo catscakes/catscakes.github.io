@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>中山大学CTF新手赛参赛经历</title>
+    <link href="/2023/05/04/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6CTF%E6%96%B0%E6%89%8B%E8%B5%9B%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/"/>
+    <url>/2023/05/04/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6CTF%E6%96%B0%E6%89%8B%E8%B5%9B%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/</url>
+    
+    <content type="html"><![CDATA[<h2 id="您好，本文介绍我参与中山大学CTF新手赛的经历"><a href="#您好，本文介绍我参与中山大学CTF新手赛的经历" class="headerlink" title="您好，本文介绍我参与中山大学CTF新手赛的经历"></a>您好，本文介绍我参与中山大学CTF新手赛的经历</h2><blockquote><p>点击蓝字可看到图片</p></blockquote><h2 id="赛事主页"><a href="#赛事主页" class="headerlink" title="赛事主页"></a><a href="pageofact.png">赛事主页</a></h2><blockquote><p>赛事网址： <a href="https://ctf.w4terdr0p.team/">https://ctf.w4terdr0p.team/</a><br>主办人：GZTime</p></blockquote><hr><h2 id="队伍名称"><a href="#队伍名称" class="headerlink" title="队伍名称"></a><a href="name.png">队伍名称</a></h2><blockquote><p>我在中大计院公众号上，看到了作为计算机文化月活动之一的，中山大学信息安全新手赛的参赛邀请。<br>个人有转入网络空间安全学院的想法，认为参加此次CTF新手赛，可以以考促学，发掘新的兴趣点、寻找学习方向。<br>苦于没有找到队友，我便找了两位好友”充人头”， 一人拿下了四道题。<br>最终获得了三等奖。<br>虽然奖的分量不重，却是我对信息安全的成功的初步探索。<br>比赛过程中，我了解了HTML文件，netcat，终端host的一些知识，本地server的简单应用。并为本网页的编辑打下一定的基础。</p></blockquote><hr><h2 id="对四道题目题解的简单梳理"><a href="#对四道题目题解的简单梳理" class="headerlink" title="对四道题目题解的简单梳理"></a>对四道题目题解的简单梳理</h2><p><a href="checkin.png">签到题</a></p><blockquote><p>计院CTF比赛招募文章末尾可以看到第一段flag<br>第二段flag隐藏在HTML文件中</p><blockquote><p><a href="1.png">第二段flag隐藏在HTML文件中</a><br>QQ群中放出了最后一段flag<br>三者拼在一起就是答案flag：W4terCTF{weIC0Me_tO_th3_4m4z1n6_W0rId_o1_CTF}</p></blockquote></blockquote><p><a href="netcat.png">网猫题</a></p><blockquote><p>部署好nc网猫，使用指令<code>nc ctf.w4terdr0p.team 49718</code>访问网猫端口49718<br>服务器给出相应，返回答案flag: W4terCTF{wEICOMe_t0_THE_THrillln6_94mE}</p></blockquote><p><a href="lazyput.png">lazyput</a></p><blockquote><p>网猫访问实例端口，立即得到一个文件<br>文件打开，搜索CTF，得到flag: W4terCTF{I’II_T31I_y0u_7he_TrUTh_wh3n_I_waKE_UP}</p></blockquote><p><a href="checkout.png">签退题</a></p><blockquote><p>按照提示填写得到一串数字，询问gztime获得hexdecode提示，decode就得flag。</p><blockquote><p>什么是Hex:将每一个字节表示的十六进制表示的内容，用字符串来显示<br>因为一个字节中存在8个 bit可以表示256个字符，而 ASCII 码只能表示0-127种字符，为了能完整地表示一个字节，可以将二进制数据转换为十六进制数据的方式来实现。<br>所以 Hex 编码也被称作为 Base16 编码，相比于原先8位表示一个字节，Hex 编码能够只用2位表示一个字节。Hex 编码最常用于二进制文件查看时展示的编码</p><blockquote><p>参考网页： <a href="https://blog.51cto.com/u_15127537/4574751">https://blog.51cto.com/u_15127537/4574751</a></p></blockquote></blockquote></blockquote><hr><h2 id="得奖（在最后一行）"><a href="#得奖（在最后一行）" class="headerlink" title="得奖（在最后一行）"></a>得奖（在最后一行）</h2><img src="/2023/05/04/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6CTF%E6%96%B0%E6%89%8B%E8%B5%9B%E5%8F%82%E8%B5%9B%E7%BB%8F%E5%8E%86/CTF%E5%BE%97%E5%A5%96.jpg" class="" title="CTF得奖">  <h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>有很多知识点是我从来没有见过的，这次参赛，拓宽了我的眼界。<br>我也尝试过，做非对称加密和Python解密的相关题目，奈何能力实在不够，只得放弃。<br>个人感觉，总体而言，算得上在信息安全领域学习的，一个好的开始。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>网络空间安全学院转专业材料</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第一份文稿（本网页部署编辑过程记录）</title>
     <link href="/2023/04/29/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/"/>
     <url>/2023/04/29/%E7%AC%AC%E4%B8%80%E4%BB%BD%E6%96%87%E7%A8%BF/</url>
@@ -27,7 +46,7 @@
     <link href="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/"/>
     <url>/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/</url>
     
-    <content type="html"><![CDATA[<p>这些是我的获奖经历，和参与到各种活动，竞赛的证明材料<br>非常感谢您付出的时间！</p><h2 id="国家励志奖学金2022学年"><a href="#国家励志奖学金2022学年" class="headerlink" title="国家励志奖学金2022学年  "></a>国家励志奖学金2022学年<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/1.jpg" class="" title="国家励志奖学金2022学年">  </h2><h2 id="22学业进步奖学金"><a href="#22学业进步奖学金" class="headerlink" title="22学业进步奖学金  "></a>22学业进步奖学金<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/22%E5%AD%A6%E4%B8%9A%E8%BF%9B%E6%AD%A5%E5%A5%96%E5%AD%A6%E9%87%91.jpg" class="" title="22学业进步奖学金">  </h2><h2 id="程设新手赛得奖"><a href="#程设新手赛得奖" class="headerlink" title="程设新手赛得奖  "></a>程设新手赛得奖<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E7%A8%8B%E8%AE%BE%E6%96%B0%E6%89%8B%E8%B5%9B%E5%BE%97%E5%A5%96.jpg" class="" title="程设新手赛得奖">  </h2><h2 id="CTF得奖（在最后一行）"><a href="#CTF得奖（在最后一行）" class="headerlink" title="CTF得奖（在最后一行）  "></a>CTF得奖（在最后一行）<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/CTF%E5%BE%97%E5%A5%96.jpg" class="" title="国家励志奖学金2022学年">  </h2><h2 id="六级549分"><a href="#六级549分" class="headerlink" title="六级549分  "></a>六级549分<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%85%AD%E7%BA%A7549.png" class="" title="六级549">  </h2><h2 id="PATb-（这里是PDF原件，请您点击下方蓝色字体就可以看到）"><a href="#PATb-（这里是PDF原件，请您点击下方蓝色字体就可以看到）" class="headerlink" title="PATb  （这里是PDF原件，请您点击下方蓝色字体就可以看到）  "></a>PATb  （这里是PDF原件，请您点击下方蓝色字体就可以看到）<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/PATb.pdf" class="" title="PATb">  </h2><h2 id="大气科学学院团委实践部任职"><a href="#大气科学学院团委实践部任职" class="headerlink" title="大气科学学院团委实践部任职  "></a>大气科学学院团委实践部任职<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%AE%9E%E8%B7%B5%E9%83%A8%E4%BB%BB%E8%81%8C.jpg" class="" title="大气科学学院团委实践部任职">  </h2><h2 id="实验室助理任职"><a href="#实验室助理任职" class="headerlink" title="实验室助理任职  "></a>实验室助理任职<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A9%E7%90%86%EF%BC%8C%E5%BF%97%E6%84%BF%E6%97%B6.jpg" class="" title="实验室助理任职">  </h2>]]></content>
+    <content type="html"><![CDATA[<p>这些是我的获奖经历，和参与到各种活动，竞赛的证明材料<br>非常感谢您付出的时间！</p><h2 id="国家励志奖学金2022学年"><a href="#国家励志奖学金2022学年" class="headerlink" title="国家励志奖学金2022学年  "></a>国家励志奖学金2022学年<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/1.jpg" class="" title="国家励志奖学金2022学年">  </h2><h2 id="22学业进步奖学金"><a href="#22学业进步奖学金" class="headerlink" title="22学业进步奖学金  "></a>22学业进步奖学金<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/22%E5%AD%A6%E4%B8%9A%E8%BF%9B%E6%AD%A5%E5%A5%96%E5%AD%A6%E9%87%91.jpg" class="" title="22学业进步奖学金">  </h2><h2 id="程设新手赛得奖"><a href="#程设新手赛得奖" class="headerlink" title="程设新手赛得奖  "></a>程设新手赛得奖<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E7%A8%8B%E8%AE%BE%E6%96%B0%E6%89%8B%E8%B5%9B%E5%BE%97%E5%A5%96.jpg" class="" title="程设新手赛得奖">  </h2><h2 id="CTF得奖（在最后一行）"><a href="#CTF得奖（在最后一行）" class="headerlink" title="CTF得奖（在最后一行）  "></a>CTF得奖（在最后一行）<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/CTF%E5%BE%97%E5%A5%96.jpg" class="" title="CTF得奖">  </h2><h2 id="六级549分"><a href="#六级549分" class="headerlink" title="六级549分  "></a>六级549分<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%85%AD%E7%BA%A7549.png" class="" title="六级549">  </h2><h2 id="PATb-（这里是PDF原件，请您点击下方蓝色字体就可以看到）"><a href="#PATb-（这里是PDF原件，请您点击下方蓝色字体就可以看到）" class="headerlink" title="PATb  （这里是PDF原件，请您点击下方蓝色字体就可以看到）  "></a>PATb  （这里是PDF原件，请您点击下方蓝色字体就可以看到）<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/PATb.pdf" class="" title="PATb">  </h2><h2 id="大气科学学院团委实践部任职"><a href="#大气科学学院团委实践部任职" class="headerlink" title="大气科学学院团委实践部任职  "></a>大气科学学院团委实践部任职<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%AE%9E%E8%B7%B5%E9%83%A8%E4%BB%BB%E8%81%8C.jpg" class="" title="大气科学学院团委实践部任职">  </h2><h2 id="实验室助理任职"><a href="#实验室助理任职" class="headerlink" title="实验室助理任职  "></a>实验室助理任职<br><img src="/2023/04/29/%E4%B8%AA%E4%BA%BA%E8%8E%B7%E5%A5%96%E7%BB%8F%E5%8E%86/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8A%A9%E7%90%86%EF%BC%8C%E5%BF%97%E6%84%BF%E6%97%B6.jpg" class="" title="实验室助理任职">  </h2>]]></content>
     
     
     
@@ -42,13 +61,19 @@
   
   
   <entry>
-    <title>测试文章</title>
+    <title>我热切盼望着能够进入网络空间安全学院学习！</title>
     <link href="/2023/03/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2023/03/29/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="感谢您的访问"><a href="#感谢您的访问" class="headerlink" title="感谢您的访问"></a>感谢您的访问</h2><hr><hr>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>网络空间安全学院转专业材料</tag>
+      
+    </tags>
     
   </entry>
   
